@@ -374,4 +374,3 @@ on this and other documents are acceptable if consensus can be obtained from app
 A reason for requesting the exception MUST be given in the pull request. Until unanimity is obtained, approvers and maintainers are
 encouraged to discuss the issue at hand. If a consensus (unanimity) cannot be obtained, the maintainers' group is then tasked with making a
 decision using its regular means (voting, TC help, etc.).
-
