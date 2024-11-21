@@ -174,3 +174,4 @@ The OpenTelemetry Collector SIG provides long-term support for stable Go modules
 
 - Modules intended for **component developers** MUST be supported for a minimum of **1 year** after the release of the next major version of said module or after the module has been marked as deprecated.
 - Modules intended for **Collector library users** MUST be supported for a minimum of **6 months** after the release of the next major version of said module or after the module has been marked as deprecated.
+
