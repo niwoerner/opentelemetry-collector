@@ -30,7 +30,7 @@ jobs:
             echo "files=$(git diff --name-only --diff-filter=ACMRTUXB $(git merge-base origin/main $PR_HEAD) $PR_HEAD | grep .md$ | xargs)" >> $GITHUB_OUTPUT
             
             if [ -z "$files" ] && git diff --name-only $(git merge-base origin/main $PR_HEAD) $PR_HEAD | grep -q "package.json"; then
-              echo "files=./" >> $GITHUB_OUTPUT
+              echo "files=$(find . -name "*.md")" >> $GITHUB_OUTPUT
             fi
   check-links:
     runs-on: ubuntu-latest
