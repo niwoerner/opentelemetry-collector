@@ -208,3 +208,4 @@ Thanks to all the people who already contributed!
 <a href="https://github.com/open-telemetry/opentelemetry-collector/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=open-telemetry/opentelemetry-collector" />
 </a>
+
