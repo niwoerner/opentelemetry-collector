@@ -28,7 +28,7 @@ jobs:
         id: changes
         run: |
             echo "files=$(git diff --name-only --diff-filter=ACMRTUXB $(git merge-base origin/main $PR_HEAD) $PR_HEAD | grep .md$ | xargs)" >> $GITHUB_OUTPUT
-            
+            echo $files
             if [ -z "$files" ] && git diff --name-only $(git merge-base origin/main $PR_HEAD) $PR_HEAD | grep -q "package.json"; then
               echo "files=**/*.md" >> $GITHUB_OUTPUT
             fi
